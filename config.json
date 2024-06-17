@@ -6,32 +6,20 @@
   },
   "links_replacements": [
     {
-      "target": "\"developers.html\"",
-      "replace_by": "\"/developers\""
-    },
-    {
-      "target": "\"about.html\"",
-      "replace_by": "\"/about\""
-    },
-    {
-      "target": "\"faq.html\"",
-      "replace_by": "\"/faq\""
+      "target": "\"modules.html\"",
+      "replace_by": "\"/modules\""
     },
     {
       "target": "\"index.html\"",
       "replace_by": "\"/\""
     },
     {
-      "target": "\"pricing.html\"",
-      "replace_by": "\"/pricing\""
-    },
-    {
       "target": "\"privacy-policy.html\"",
       "replace_by": "\"/privacy-policy\""
     },
     {
-      "target": "\"terms-of-service.html\"",
-      "replace_by": "\"/terms-of-service\""
+      "target": "\"terms-and-conditions.html\"",
+      "replace_by": "\"/terms-and-conditions\""
     }
   ],
   "file_links_replacement": [
@@ -50,22 +38,8 @@
   ],
   "transforms": [
     {
-      "name": "developers",
-      "filepath": "developers.html",
-      "move_to_subfolder": true,
-      "apply_links_replacements": true,
-      "apply_file_links_replacements": true
-    },
-    {
-      "name": "about",
-      "filepath": "about.html",
-      "move_to_subfolder": true,
-      "apply_links_replacements": true,
-      "apply_file_links_replacements": true
-    },
-    {
-      "name": "faq",
-      "filepath": "faq.html",
+      "name": "modules",
+      "filepath": "modules.html",
       "move_to_subfolder": true,
       "apply_links_replacements": true,
       "apply_file_links_replacements": true
@@ -78,13 +52,6 @@
       "apply_file_links_replacements": false
     },
     {
-      "name": "pricing",
-      "filepath": "pricing.html",
-      "move_to_subfolder": true,
-      "apply_links_replacements": true,
-      "apply_file_links_replacements": true
-    },
-    {
       "name": "privacy-policy",
       "filepath": "privacy-policy.html",
       "move_to_subfolder": true,
@@ -92,8 +59,8 @@
       "apply_file_links_replacements": true
     },
     {
-      "name": "terms-of-service",
-      "filepath": "terms-of-service.html",
+      "name": "terms-and-conditions",
+      "filepath": "terms-and-conditions.html",
       "move_to_subfolder": true,
       "apply_links_replacements": true,
       "apply_file_links_replacements": true
